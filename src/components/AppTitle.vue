@@ -3,7 +3,8 @@ export default{
     name:"AppTitle",
     data(){
         return{
-            text: "La mia prima App con Vite"
+            text: "日本へようこそ",
+            translate: "Welcome to Nippon!"
         }
     }
     
@@ -12,6 +13,7 @@ export default{
 
 <template>
     <h1>{{ text }}</h1>
+    <h2>{{ translate }}</h2>
   
 </template>
 
